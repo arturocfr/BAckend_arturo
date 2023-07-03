@@ -1,6 +1,6 @@
-package g5_u1.classes;
+package g5_u1.Classes;
 
-public abstract  class ElementoMultimediale {
+public class ElemntoMultimediale {
 protected String title;
 	
 	public ElementoMultimediale(String title) {
@@ -17,4 +17,6 @@ protected String title;
 
 	public abstract void play();
 
+
 }
+
