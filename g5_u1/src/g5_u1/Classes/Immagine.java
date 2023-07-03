@@ -1,5 +1,7 @@
 package g5_u1.Classes;
-import g5_u1.interfaces.ILuminosita;
+
+import g5_u1.Interfaces.ILuminosita;
+
 public class Immagine {
 
 	public class Immagine extends ElementoMultimediale implements ILuminosita{
@@ -38,11 +40,11 @@ public class Immagine {
 		@Override
 		public int aumentaLuminosità() {
 			if(this.luminosita >= 10) {
-				System.out.println("\u001B[31m" + "La luminosità non puó essere superiore a 10" + "\u001B[0m");
+				System.out.println("\u001B[31m" + "La luminosità non superiore a 10" + "\u001B[0m");
 				return this.luminosita;
 			}
 			this.luminosita++;
-			System.out.println("La luminositá é stata aumentata a: " + this.luminosita);
+			System.out.println("La luminositá è di: " + this.luminosita);
 			return this.luminosita;
 		}
 
@@ -51,11 +53,11 @@ public class Immagine {
 		@Override
 		public int diminuisciLuminosità() {
 			if(this.luminosita <= 0) {
-				System.out.println("\u001B[31m" + "La luminosità non puó essere inferiore a 0" + "\u001B[0m");
+				System.out.println("\u001B[31m" + "La luminosità non inferiore a 0" + "\u001B[0m");
 				return this.luminosita;
 			}
 			this.luminosita--;
-			System.out.println("La luminositá é stata diminuita a: " + this.luminosita);
+			System.out.println("La luminositá è diminuita di: " + this.luminosita);
 			return this.luminosita;
 		}
 
