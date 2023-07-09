@@ -1,9 +1,11 @@
-package g5_u1.Classes;
+package g5_u1.classes;
 
-import g5_u1.Interfaces.ILuminosita;
+import g5-u1.interfaces.ILuminosita;
+
+import g5_u1.interfaces.IVolume;
 
 public class Video extends ElementoMultimediale implements IVolume,ILuminosita{
-
+	
 	public int durata;
 	public int volume;
 	public int luminosita;
@@ -83,6 +85,8 @@ public class Video extends ElementoMultimediale implements IVolume,ILuminosita{
 	}
 
 }
+
+
 
 
 

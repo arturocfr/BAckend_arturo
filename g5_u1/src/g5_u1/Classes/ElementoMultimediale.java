@@ -1,6 +1,6 @@
 package g5_u1.Classes;
 
-public class ElemntoMultimediale {
+public class ElementoMultimediale {
 protected String title;
 	
 	public ElementoMultimediale(String title) {

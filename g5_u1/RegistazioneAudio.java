@@ -1,8 +1,8 @@
-package g5_u1.Classes;
+package g5_u1.classes;
+import g5_u1.interfaces.IVolume;
 
-import g5_u1.Interfaces.IVolume;
+public class RegistazioneAudio  extends ElementoMultimediale implements IVolume{
 
-public class RegistrazioneAudio extends ElementoMultimediale implements IVolume{
 	public int durata;
 	public int volume;
 	
@@ -12,7 +12,6 @@ public class RegistrazioneAudio extends ElementoMultimediale implements IVolume{
 		this.volume = 5;
 	
 	}
-	
 	@Override
 	public String toString() {
 		return "Audio " + this.title + ": [durata=" + durata + ", volume=" + volume + "]";
@@ -26,7 +25,7 @@ public class RegistrazioneAudio extends ElementoMultimediale implements IVolume{
 			return this.volume;
 		}
 		this.volume--;
-		System.out.println("Il volume é diminuito a: " + this.volume);
+		System.out.println("Il volume é stato diminuito a: " + this.volume);
 		return this.volume;
 	}
 
@@ -55,7 +54,9 @@ public class RegistrazioneAudio extends ElementoMultimediale implements IVolume{
 		}
 		
 	}
-	
-	
+
 
 }
+
+
+
