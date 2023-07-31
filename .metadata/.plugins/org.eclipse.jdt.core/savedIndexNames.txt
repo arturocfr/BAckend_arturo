@@ -19,7 +19,6 @@ INDEX VERSION 1.134+C:\Users\artur\eclipse-workspace\.metadata\.plugins\org.ecli
 3272329645.index
 1337985983.index
 3223946049.index
-1939999649.index
 2360755883.index
 5409625.index
 1593181837.index
